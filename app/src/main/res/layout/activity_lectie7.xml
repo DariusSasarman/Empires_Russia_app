@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lectie_7"
+    android:orientation="horizontal"
+    android:background="@color/cardview_dark_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/ussr_buton"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/titlu"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlu">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="100dp">
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lenin_revolutie"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere1_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere2_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:background="@drawable/da30_dec_1992"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere3_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere4_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vladimir_lenin"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere5_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere6_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/inmormantare_lenin"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere7_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere8_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stalin"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere9_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere10_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/marele_razboi_pentru_apararea_patriei"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere11_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere12_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cold_war"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere13_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere14_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="600dp"
+                android:background="@drawable/inmormantare_stalin"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere15_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere16_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:background="@drawable/cei_trei_batrani"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere17_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere18_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:background="@drawable/mikhail_gorbacev"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere19_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere20_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:background="@drawable/perestroika_stampila"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere21_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere22_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+
+            <ImageView
+                android:id="@+id/ImageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:background="@drawable/republici_ussr"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere23_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere24_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:background="@drawable/coborarea_steagului_sovietic"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere25_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere26_capitol7"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

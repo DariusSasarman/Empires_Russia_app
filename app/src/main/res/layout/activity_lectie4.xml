@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lectie_4"
+    android:orientation="horizontal"
+    android:background="@color/cardview_dark_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/titlu_lectie4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/titlu"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlu">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="100dp">
+
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/petru_cel_mare_tanar"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere1_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere2_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/petru_cel_mare_batran"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere3_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere4_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView10"
+                android:layout_width="400dp"
+                android:layout_height="500dp"
+                android:background="@drawable/petru_deghizat_ca_tamplar"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere15_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere10_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/marea_ambasada_a_lui_petru_cel_mare"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere11_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere12_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/camera_lorzilor"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere13_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere14_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/petru_cel_mare_statuie_de_bronz_de_la_sankt_petersburg"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere5_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere16_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/peter_contempland_construirea_st_petersburg"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere17_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere18_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:background="@drawable/petersburg"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere9_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere6_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/batalia_poltava"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere7_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere8_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+
+
+            <ImageView
+                android:id="@+id/ImageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ecaterina_i"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere19_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere20_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+            <ImageView
+                android:id="@+id/ImageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vitus_bering"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/descriere21_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descriere22_capitol4"
+                android:textColor="#A1887F"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
